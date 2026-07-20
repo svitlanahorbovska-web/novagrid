@@ -1,0 +1,33 @@
+NOVA GRID — PRE-DEPLOY AUDIT
+Date: 2026-07-20
+
+AUTOMATICALLY FIXED
+- Normalized ZIP paths from Windows backslashes to standard folders.
+- Connected assets/css/design-system.css on all 12 HTML pages.
+- Confirmed WOFF2 font files use font-display: swap and ImageKit preconnect is present.
+- Added robots meta directives and og:site_name.
+- Completed Twitter title, description and image metadata where missing.
+- Added missing og:image:alt metadata.
+- Added accessible initial menu labels and aria-current on the story archive.
+- Added an accessible name to the newsletter form.
+- Replaced the fake novagrid.example sitemap domain with explicit YOUR-DOMAIN placeholders.
+- Made the robots.txt Sitemap directive inactive until the real domain is inserted.
+- Verified one H1 per page, heading order, image alt text, image dimensions, lazy loading,
+  local href/src paths, form action/status feedback, media queries and JavaScript syntax.
+
+REQUIRED BEFORE DEPLOY
+1. Replace YOUR-DOMAIN with the final HTTPS domain in:
+   - the commented og:url and canonical templates in every HTML file;
+   - sitemap.xml;
+   - robots.txt.
+2. Uncomment the two metadata lines in every HTML page.
+3. Uncomment the Sitemap line in robots.txt only after inserting the final domain.
+4. Test the public ImageKit assets and the Formspree newsletter endpoint from the deployed site.
+5. Add real footer destinations for Instagram, Privacy, Impressum and Contact if they are meant
+   to be interactive.
+6. Add GA4 / Meta Pixel only when you have the correct IDs and an appropriate consent setup.
+
+KNOWN PERFORMANCE ITEM
+- assets/video/hero-scroll.mp4 is approximately 7.3 MB. It was not recompressed because the
+  supplied README says its frequent keyframes are required for scroll scrubbing. Check its effect
+  in PageSpeed Insights after deployment before deciding whether to re-encode it.
