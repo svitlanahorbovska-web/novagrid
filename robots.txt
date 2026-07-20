@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# REQUIRED BEFORE DEPLOY: replace YOUR-DOMAIN and remove the leading #.
+# Sitemap: https://YOUR-DOMAIN/sitemap.xml

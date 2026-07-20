@@ -1,0 +1,1516 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="description" content="Nova Grid explores games, emerging technology, artificial intelligence, digital identity and the culture shaping tomorrow’s virtual worlds.">
+  <meta name="theme-color" content="#edf3f6">
+  <title>Nova Grid — Games, Technology & Digital Culture</title>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nova Grid">
+  <meta property="og:title" content="Nova Grid — Games, Technology & Digital Culture">
+  <meta property="og:description" content="Explore games, emerging technology, artificial intelligence and the culture shaping tomorrow’s virtual worlds.">
+  <meta property="og:image" content="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/hero_static_clean.jpg?tr=w-1200,h-630,c-maintain_ratio">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nova Grid digital network and cyber character">
+  <!-- REQUIRED BEFORE DEPLOY: replace YOUR-DOMAIN with the final HTTPS domain, then uncomment both lines.
+  <meta property="og:url" content="https://YOUR-DOMAIN/">
+  <link rel="canonical" href="https://YOUR-DOMAIN/">
+  -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nova Grid — Games, Technology & Digital Culture">
+  <meta name="twitter:description" content="Explore games, emerging technology, artificial intelligence and the culture shaping tomorrow’s virtual worlds.">
+  <meta name="twitter:image" content="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/hero_static_clean.jpg?tr=w-1200,h-630,c-maintain_ratio">
+  <link rel="preconnect" href="https://ik.imagekit.io" crossorigin>
+  <link rel="dns-prefetch" href="//ik.imagekit.io">
+  <link rel="stylesheet" href="assets/css/design-system.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <!-- GA4: вставити тег тут -->
+  <!-- Meta Pixel: вставити тут -->
+  <style>
+
+    :root{
+      --ink:#091c2f;--muted:#5e6e7d;--blue:#4d7fba;--blue-2:#9bc9ee;
+      --paper:#edf3f6;--navy:#07182a;--line:rgba(92,133,165,.22);
+      --glass:rgba(248,252,254,.72);--radius:28px;--shadow:0 18px 50px rgba(17,42,64,.10)
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);background:linear-gradient(180deg,#f0f5f8,#e8f0f5);font-family:Inter,Arial,sans-serif;line-height:1.5}
+    body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(rgba(255,255,255,.45) 1px,transparent 1px);background-size:100% 4px;z-index:20;mix-blend-mode:soft-light}
+    h1,h2,h3,.logo,.nav-link,.button,.eyebrow,.category{font-family:"Space Grotesk",Arial,sans-serif}
+    h1,h2,h3,p{margin-top:0}
+    a{color:inherit;text-decoration:none}
+    button,input{font:inherit}
+    img{display:block;max-width:100%}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .container{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+    .glass{background:var(--glass);border:1px solid rgba(255,255,255,.88);box-shadow:var(--shadow);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+
+    .site-header{position:fixed;z-index:100;top:20px;left:50%;transform:translateX(-50%);width:min(1180px,calc(100% - 48px));height:66px;border-radius:24px;display:flex;align-items:center;justify-content:space-between;padding:0 15px 0 20px;background:linear-gradient(110deg,rgba(249,252,254,.94),rgba(226,237,244,.86));border:1px solid rgba(255,255,255,.96);box-shadow:0 14px 44px rgba(8,28,46,.13),inset 0 -1px 0 rgba(80,126,158,.10);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);overflow:hidden}
+    .site-header::after{content:"";position:absolute;left:10%;top:-100%;width:34%;height:280%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.5),transparent);transform:rotate(12deg);pointer-events:none;opacity:.58}
+    .site-header>*{position:relative;z-index:1}
+    .logo{font-weight:700;letter-spacing:.02em}
+    .site-header .logo{display:inline-flex;align-items:center;gap:11px;font-size:.91rem;letter-spacing:.055em;-webkit-text-stroke:.16px currentColor}
+    .site-header .logo::before{content:"";width:24px;height:24px;flex:0 0 24px;border-radius:50%;background:radial-gradient(circle at 50% 50%,#f8fcff 0 20%,transparent 22%),conic-gradient(from 205deg,var(--navy),var(--blue-2),var(--blue),var(--navy));box-shadow:inset 0 0 0 4px rgba(242,248,251,.72),0 3px 10px rgba(40,91,132,.22)}
+    .desktop-nav{display:flex;align-items:center;gap:34px}
+    .nav-link{position:relative;padding:10px 13px;border-radius:999px;font-size:.81rem;font-weight:700;letter-spacing:.085em;-webkit-text-stroke:.14px currentColor;transition:color .22s ease,background .22s ease,transform .22s ease,box-shadow .22s ease}
+    .nav-link:hover,.nav-link:focus-visible{color:white;background:#788894;box-shadow:0 8px 18px rgba(56,76,91,.18);transform:translateY(-1px)}
+    .menu-button{display:none;position:relative;border:0;background:none;font-family:"Space Grotesk";font-weight:700;font-size:.75rem;color:var(--ink);padding:10px 27px 10px 10px;z-index:52;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+    .menu-button::before,.menu-button::after{content:"";position:absolute;right:5px;top:50%;width:16px;height:1.5px;border-radius:2px;background:currentColor;transition:transform .35s cubic-bezier(.22,.61,.36,1)}
+    .menu-button::before{transform:translateY(-3px)}.menu-button::after{transform:translateY(3px)}
+    body.menu-open .menu-button::before{transform:translateY(0) rotate(45deg)}body.menu-open .menu-button::after{transform:translateY(0) rotate(-45deg)}
+
+    .floating-rail{--page-progress:0deg;position:fixed;z-index:70;right:18px;top:50%;display:flex;flex-direction:column;align-items:center;gap:7px;padding:8px;border:1px solid rgba(255,255,255,.92);border-radius:999px;background:rgba(244,249,252,.88);box-shadow:0 16px 42px rgba(7,24,42,.16);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);opacity:0;visibility:hidden;pointer-events:none;transform:translate(18px,-50%);transition:opacity .35s ease,transform .45s cubic-bezier(.22,.61,.36,1),visibility .35s}
+    body.rail-visible .floating-rail{opacity:1;visibility:visible;pointer-events:auto;transform:translate(0,-50%)}
+    .rail-progress,.rail-menu-button,.rail-top{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:var(--ink)}
+    .rail-progress{position:relative;background:conic-gradient(var(--blue) var(--page-progress),rgba(77,127,186,.16) 0);font-family:"Space Grotesk",Arial,sans-serif;font-size:.52rem;font-weight:700;letter-spacing:-.02em}
+    .rail-progress::before{content:"";position:absolute;inset:4px;border-radius:inherit;background:rgba(247,251,253,.96)}
+    .rail-progress span{position:relative;z-index:1}
+    .rail-menu-button,.rail-top{border:0;background:transparent;cursor:pointer;text-decoration:none;transition:background .24s ease,color .24s ease,transform .24s ease}
+    .rail-menu-button{font-family:"Space Grotesk",Arial,sans-serif;font-size:.52rem;font-weight:700;letter-spacing:.08em}
+    .rail-menu-button:hover,.rail-menu-button:focus-visible,.rail-top:hover,.rail-top:focus-visible{background:var(--navy);color:white;transform:scale(1.04)}
+    .rail-top{font-size:1.1rem}
+    .rail-panel{position:absolute;right:62px;top:50%;display:flex;flex-direction:column;min-width:150px;padding:10px;border-radius:20px;background:rgba(7,24,42,.94);box-shadow:0 18px 44px rgba(7,24,42,.24);opacity:0;visibility:hidden;pointer-events:none;transform:translate(12px,-50%);transition:opacity .28s ease,transform .35s cubic-bezier(.22,.61,.36,1),visibility .28s}
+    .floating-rail.menu-open .rail-panel{opacity:1;visibility:visible;pointer-events:auto;transform:translate(0,-50%)}
+    .rail-panel a{padding:10px 12px;border-radius:12px;color:#d9eaf5;font-family:"Space Grotesk",Arial,sans-serif;font-size:.66rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;transition:background .2s ease,color .2s ease}
+    .rail-panel a:hover,.rail-panel a:focus-visible{background:rgba(155,201,238,.14);color:white}
+
+    .hero{position:relative;min-height:760px;border:1px solid rgba(255,255,255,.92);background:#dfe4ea;display:flex;align-items:flex-end;padding-bottom:0;overflow:hidden}
+    .hero-background,.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;filter:saturate(.72) brightness(1.04) contrast(.90)}
+    .hero-video{opacity:1;transition:opacity 1.15s ease}
+    .hero-video.is-ready{opacity:1}
+    .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(214,226,235,.24) 0%,rgba(190,208,220,.12) 46%,rgba(228,234,239,.16) 100%);z-index:1;pointer-events:none}
+    .hero::after{content:"";position:absolute;inset:auto 0 0;height:16%;background:linear-gradient(transparent,rgba(237,243,246,.72));pointer-events:none;z-index:1}
+    .hero-layout{position:relative;z-index:3;width:min(1180px,calc(100% - 48px));margin:0 auto;min-height:760px;display:block}
+    .hero-copy{position:absolute;left:0;bottom:54px;z-index:4;display:flex;flex-direction:column;align-items:flex-start;gap:16px;max-width:560px}
+    .hero-title{position:absolute;left:-80px;top:0;width:100%;height:100%;z-index:2;margin:0;pointer-events:none;filter:drop-shadow(1px 2px 1px rgba(44,78,103,.26)) drop-shadow(0 0 14px rgba(137,202,235,.2)) drop-shadow(0 16px 38px rgba(23,67,99,.14))}
+    .hero-title::before{content:"";position:absolute;z-index:0;left:-2%;top:7%;width:69%;height:84%;border-radius:50%;background:radial-gradient(ellipse at 38% 50%,rgba(33,72,101,.15) 0%,rgba(70,111,140,.10) 34%,rgba(119,160,187,.055) 57%,rgba(183,211,226,.018) 72%,transparent 82%);filter:blur(30px)}
+    .hero-title::after{content:"";position:absolute;z-index:2;inset:0;background:url("https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/nova-grid-title.png") center/100% 100% no-repeat;opacity:.3;pointer-events:none}
+    .hero-title img{position:relative;z-index:1;display:block;width:100%;height:100%;object-fit:fill;opacity:1;filter:none}
+    .hero-character{position:absolute;right:calc(-270px - 1vw);bottom:-3vh;z-index:3;width:min(50vw,880px);display:flex;justify-content:flex-end;align-items:flex-end;pointer-events:none}
+    .hero-character picture{display:block;width:100%}
+    .hero-character img{display:block;width:100%;height:auto}
+    .hero-actions{position:relative;z-index:4;display:flex;align-items:center;gap:14px}
+    .button{border:0;border-radius:999px;padding:15px 24px;background:var(--navy);color:white;font-weight:700;font-size:.77rem;letter-spacing:.05em;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:.25s ease}
+    .button:hover,.button:focus-visible{transform:translateY(-2px);box-shadow:0 12px 24px rgba(7,24,42,.18)}
+    .hero-actions .button:not(.secondary){background:#5f82a3;color:white;border:1px solid rgba(231,243,250,.82);box-shadow:0 8px 20px rgba(73,119,155,.18)}
+    .hero-actions .button:not(.secondary):hover,.hero-actions .button:not(.secondary):focus-visible{background:#788894;color:white;box-shadow:0 12px 24px rgba(56,76,91,.20)}
+    .button.secondary{background:rgba(245,250,252,.86);color:var(--ink);border:1px solid rgba(255,255,255,.92)}
+    .hero-id{position:relative;z-index:4;background:rgba(245,250,252,.82);border:1px solid white;border-radius:999px;padding:10px 16px;font-family:"Space Grotesk";font-size:.72rem;font-weight:700;letter-spacing:.05em;backdrop-filter:blur(12px)}
+
+    section{padding:96px 0}
+    .section-intro{display:grid;grid-template-columns:1.35fr .65fr;align-items:end;gap:40px;margin-bottom:46px}
+    .section-label{display:flex;align-items:center;gap:14px;margin-bottom:18px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em}
+    .section-label .number{color:var(--blue)}
+    .section-label .line{width:48px;height:1px;background:var(--blue)}
+    .section-title{font-size:clamp(2.7rem,5vw,5.2rem);line-height:.92;letter-spacing:-.055em;margin:0}
+    .section-copy{color:var(--muted);max-width:460px;margin:0 0 5px auto}
+
+    .featured-grid{display:grid;grid-template-columns:1fr 1.08fr;grid-template-rows:repeat(2,280px);gap:24px}
+    .story-card{border-radius:var(--radius);overflow:hidden;position:relative;display:grid;grid-template-columns:44% 1fr;min-height:0;background:var(--glass);border:1px solid rgba(255,255,255,.9);box-shadow:var(--shadow);backdrop-filter:blur(18px)}
+    .story-card.featured-main{grid-row:1/3;grid-template-columns:1fr;grid-template-rows:58% 1fr}
+    .card-image{position:relative;overflow:hidden;background:#dce8ef}
+    .card-image::after{content:"";position:absolute;inset:0;background:linear-gradient(145deg,rgba(194,222,240,.16),rgba(11,32,51,.10));mix-blend-mode:color}
+    .card-image img{width:100%;height:100%;object-fit:cover;filter:saturate(.68) contrast(.96) brightness(1.02)}
+    .card-content{padding:24px;display:flex;flex-direction:column;justify-content:center}
+    .category{color:var(--blue);font-size:.66rem;text-transform:uppercase;font-weight:700;letter-spacing:.08em;margin-bottom:10px}
+    .card-title{font-size:1.35rem;line-height:1.05;letter-spacing:-.03em;margin-bottom:12px}
+    .card-text{font-size:.84rem;color:var(--muted);margin:0}
+    .card-link{position:absolute;z-index:6;inset:0;border-radius:inherit}
+    .card-link:focus-visible{outline:2px solid var(--blue-2);outline-offset:-4px}
+
+    .signals-wrap{background:var(--navy);border-radius:42px;color:white;padding:54px 42px 46px}
+    .signals-wrap .section-label{color:#c7d7e5}.signals-wrap .section-title{color:#f3f7fa;font-size:clamp(2.5rem,4.8vw,4.5rem)}
+    .signals-wrap .section-copy{color:#a9becf}
+    .signal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .signal-card{position:relative;min-height:440px;border-radius:24px;overflow:hidden;border:1px solid rgba(168,205,232,.62);background:rgba(20,48,74,.56);display:grid;grid-template-rows:50% 1fr;transition:.25s ease}
+    .signal-card:hover{transform:translateY(-5px);border-color:#d8eefc}
+    .signal-card .card-content{padding:18px;justify-content:flex-start}
+    .signal-card .card-title{font-size:1.18rem}.signal-card .card-text{color:#b5c7d5;font-size:.78rem}
+    .signals-marquee{overflow:hidden;margin:-5px 0 30px;border-top:1px solid rgba(168,205,232,.18);border-bottom:1px solid rgba(168,205,232,.18);padding:13px 0;color:#b9d7e9;cursor:default;contain:paint}
+    .signals-marquee-track{display:flex;width:max-content;will-change:transform;transform:translate3d(0,0,0);backface-visibility:hidden;animation:signalsMarquee 16s linear infinite}
+    .signals-marquee:hover .signals-marquee-track,.signals-marquee:focus-within .signals-marquee-track{animation-play-state:paused}
+    .signals-marquee-row{display:block;flex:0 0 auto;width:max-content;white-space:nowrap;padding-right:0;line-height:1;font-family:"Space Grotesk",Arial,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;text-rendering:geometricPrecision}
+    @keyframes signalsMarquee{from{transform:translate3d(0,0,0)}to{transform:translate3d(-33.333333%,0,0)}}
+
+    .story-word{display:inline-block;will-change:opacity,transform}
+
+    @media (min-width:1101px) and (min-height:750px) and (prefers-reduced-motion:no-preference){
+      #signals{height:calc(100vh + 700px);padding:0;overflow:clip}
+      #signals .signals-wrap{position:sticky;top:var(--signals-top,0px);width:var(--signals-width,100vw);max-width:none;height:var(--signals-height,100vh);min-height:0;margin-inline:auto;display:flex;flex-direction:column;justify-content:center;border-radius:var(--signals-radius,0px);box-shadow:0 22px 70px rgba(7,24,42,var(--signals-shadow,.08));will-change:width,height,border-radius,top}
+    }
+
+    .nova-panel{display:grid;grid-template-columns:1fr 1.08fr;gap:40px;border-radius:36px;padding:42px;background:rgba(248,252,254,.78);border:1px solid white;box-shadow:var(--shadow);backdrop-filter:blur(20px)}
+    .system-kicker{font-size:.68rem;color:var(--blue);letter-spacing:.1em;text-transform:uppercase;margin-bottom:28px}
+    .nova-title{font-size:2.6rem;line-height:.94;letter-spacing:-.045em;margin-bottom:24px}
+    .nova-copy{font-size:.92rem;color:var(--muted);max-width:460px}
+    .feature-list{margin-top:34px;border-top:1px solid var(--line)}
+    .feature{display:grid;grid-template-columns:42px 1fr auto;gap:10px;align-items:center;padding:17px 0;border-bottom:1px solid var(--line);cursor:pointer}
+    .feature-number{font-size:.67rem;color:var(--blue)}
+    .feature-name{font-family:"Space Grotesk";font-weight:700;font-size:.82rem;letter-spacing:.03em}
+    .feature-toggle{width:26px;height:26px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;transition:.2s}
+    .feature-detail{grid-column:2/4;color:var(--muted);font-size:.78rem;max-height:0;overflow:hidden;opacity:0;transition:.3s ease}
+    .feature:hover .feature-detail,.feature.active .feature-detail{max-height:60px;opacity:1;padding-top:4px}
+    .feature:hover .feature-toggle,.feature.active .feature-toggle{background:var(--ink);color:white;transform:rotate(45deg)}
+    .nova-visual{position:relative;min-height:600px;border-radius:26px;overflow:hidden;background-image:linear-gradient(rgba(9,28,47,.10),rgba(9,28,47,.10)),url('https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/nova-visual.webp');background-size:cover;background-position:50% center;border:1px solid rgba(255,255,255,.92)}
+    .nova-visual::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(170,214,244,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(170,214,244,.16) 1px,transparent 1px);background-size:48px 48px;pointer-events:none}
+    .tracking-dot{position:absolute;left:50%;top:50%;width:28px;height:28px;border:2px solid white;border-radius:50%;transform:translate(-50%,-50%);box-shadow:0 0 0 10px rgba(142,203,244,.16),0 0 32px rgba(142,203,244,.58);transition:transform .08s linear;pointer-events:none}
+    .tracking-label{position:absolute;right:18px;top:18px;border-radius:999px;padding:9px 13px;background:rgba(7,24,42,.85);color:#d9effc;font-family:"Space Grotesk";font-size:.62rem;font-weight:700;letter-spacing:.06em}
+
+    .filter-row{display:flex;gap:10px;justify-content:flex-end;align-self:end}
+    .filter-pill{font-family:"Space Grotesk";font-size:.68rem;font-weight:700;padding:9px 14px;border:1px solid var(--ink);border-radius:999px;background:transparent;color:var(--ink);cursor:pointer;transition:background .25s ease,color .25s ease,transform .25s ease}
+    .filter-pill:hover,.filter-pill:focus-visible{transform:translateY(-2px)}.filter-pill.active{background:var(--ink);color:white}.editorial-grid.is-filtered{display:flex;justify-content:center}.editorial-grid.is-filtered>article:not([hidden]){width:min(820px,100%);height:410px;min-height:0}.editorial-grid.is-filtered>.editorial-main:not([hidden]){width:min(560px,100%);height:auto;aspect-ratio:1/1}.editorial-grid.is-filtered>.editorial-main:not([hidden]) img{object-position:center}.editorial-grid.is-filtered>.editorial-main:not([hidden]) .editorial-copy{left:28px;right:28px;bottom:28px}.editorial-grid.is-filtered>.editorial-main:not([hidden]) .editorial-copy h3{font-size:2rem}[hidden]{display:none!important}
+    .editorial-grid{display:grid;grid-template-columns:minmax(0,524px) minmax(0,1fr);grid-template-rows:repeat(2,250px);gap:24px}
+    .editorial-main{grid-row:1/3;position:relative;border-radius:30px;overflow:hidden;min-height:524px}
+    .editorial-main img{width:100%;height:100%;object-fit:cover;filter:saturate(.58) contrast(.97) brightness(1.01)}
+    .editorial-main::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(5,20,35,.68))}
+    .editorial-copy{position:absolute;z-index:2;left:36px;right:36px;bottom:34px;color:white}
+    .editorial-copy h3{font-size:2.5rem;line-height:.95;letter-spacing:-.04em;margin-bottom:15px}
+    .editorial-copy p{font-size:.87rem;color:#dbe7ef;margin:0;max-width:620px}
+    .editorial-grid .story-card{grid-template-columns:44% 1fr}
+
+    #about{position:relative;z-index:2;padding-bottom:0}
+    .particle-transition{position:relative;z-index:1;height:clamp(440px,44vw,640px);margin-top:-38px;padding:0;overflow:hidden;background:#e9f0f6;isolation:isolate}
+    .particle-poster,.particle-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;transform-origin:center;pointer-events:none;mix-blend-mode:multiply;filter:grayscale(1) contrast(.96) brightness(1.03)}
+    .particle-poster{z-index:0;opacity:.82;transform:scale(1.02)}
+    .particle-video{z-index:1;opacity:0;transform:scale(1.02);transition:opacity 1.4s ease}
+    .particle-video.is-ready{opacity:.82}
+    .particle-transition::before,.particle-transition::after{content:"";position:absolute;left:0;right:0;z-index:2;pointer-events:none}
+    .particle-transition::before{top:0;height:22%;background:radial-gradient(ellipse 72% 135% at 84% 0%,#e9f0f6 0%,rgba(233,240,246,.88) 34%,rgba(233,240,246,.42) 64%,transparent 84%),linear-gradient(180deg,#e9f0f6 0%,rgba(233,240,246,.94) 24%,rgba(233,240,246,.62) 58%,transparent 100%)}
+    .particle-transition::after{bottom:0;height:18%;background:linear-gradient(0deg,#e9f0f6 0%,rgba(233,240,246,.54) 40%,transparent 100%)}
+    .final-cta{position:absolute;z-index:3;left:50%;top:52%;width:min(720px,calc(100% - 48px));transform:translate(-50%,-50%);padding:40px 44px;border:1px solid rgba(255,255,255,.94);border-radius:34px;background:rgba(237,245,249,.78);box-shadow:0 24px 70px rgba(20,54,79,.16);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);text-align:center}
+    .final-cta-label{display:block;margin-bottom:12px;color:var(--blue);font-family:"Space Grotesk",Arial,sans-serif;font-size:.64rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase}
+    .final-cta h2{margin-bottom:12px;font-size:clamp(2.35rem,4.6vw,4.15rem);line-height:.92;letter-spacing:-.055em}
+    .final-cta p{max-width:510px;margin:0 auto 24px;color:#536878;font-size:.9rem}
+    .final-cta .signup{width:min(560px,100%);margin:0 auto}
+    .final-cta .button{min-width:178px;background:#5f82a3;border:1px solid rgba(255,255,255,.9);box-shadow:0 10px 24px rgba(73,119,155,.2)}
+    .final-cta .button:hover,.final-cta .button:focus-visible{background:#788894;color:white;box-shadow:0 14px 28px rgba(56,76,91,.22)}
+    .final-cta .signup-feedback{color:#526b7d!important}.final-cta .signup.has-error .signup-feedback{color:#a94d4d!important}
+
+    .newsletter{padding:0 0 40px}
+    .newsletter-panel{background:var(--navy);border-radius:30px;color:white;padding:28px 34px;display:flex;justify-content:space-between;align-items:center;gap:28px}
+    .footer-nav{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}.footer-icon{width:38px;height:38px;display:grid;place-items:center;border:1px solid rgba(183,202,216,.24);border-radius:50%;color:#b7cad8;background:rgba(255,255,255,.035);transition:color .22s ease,background .22s ease,transform .22s ease}.footer-icon svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.footer-icon:hover{color:white;background:#788894;transform:translateY(-2px)}
+    .footer-meta{color:#7891a4;font-size:.62rem;white-space:nowrap}
+    .signup{position:relative;display:flex;background:white;border-radius:999px;padding:6px;gap:8px;transition:box-shadow .35s ease}.signup input{border:0;outline:0;min-width:0;flex:1;padding:0 16px;color:var(--ink);background:transparent}.signup .button{padding:13px 22px;background:#5f82a3;color:white}.signup .button:hover,.signup .button:focus-visible{background:#788894;color:white;box-shadow:0 12px 24px rgba(56,76,91,.20)}.signup.submitted{box-shadow:0 0 0 3px rgba(155,201,238,.42),0 12px 30px rgba(77,127,186,.22)}.signup.has-error{box-shadow:0 0 0 3px rgba(218,126,126,.42)}
+    .signup-feedback{position:absolute;top:calc(100% + 9px);left:17px;margin:0!important;color:#c7d9e6!important;font-size:.67rem!important;letter-spacing:.025em}.signup.has-error .signup-feedback{color:#ffd0d0!important}
+
+    @media (max-width:1024px){
+      .container,.site-header{width:calc(100% - 32px)}
+      .site-header{top:14px}
+      .hero{min-height:640px}
+      .hero-layout{min-height:640px;width:calc(100% - 32px)}
+      .hero-character{width:min(48vw,670px);right:calc(-205px - 1vw);bottom:-3vh}
+      .hero-copy{left:0;bottom:42px;max-width:420px}
+      .hero-id{font-size:.66rem;padding:9px 14px}
+      section{padding:72px 0}
+      .section-title{font-size:3.6rem}
+      .featured-grid{grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,240px)}
+      .story-card{grid-template-columns:1fr;grid-template-rows:48% 1fr}.story-card.featured-main{grid-template-rows:57% 1fr}
+      .card-content{padding:18px}.card-title{font-size:1.12rem}.card-text{font-size:.76rem}
+      .signals-wrap{padding:42px 26px}.signal-grid{grid-template-columns:repeat(2,1fr)}.signal-card{min-height:330px;grid-template-rows:50% 1fr}
+      .nova-panel{gap:24px;padding:28px}.nova-title{font-size:2rem}.nova-visual{min-height:520px}
+      .editorial-grid{grid-template-columns:minmax(0,464px) minmax(0,1fr);grid-template-rows:repeat(2,220px)}.editorial-main{min-height:464px}.editorial-copy h3{font-size:2rem}
+      .newsletter-panel{padding:26px 28px}
+    }
+
+    /* Tablet hero only: desktop composition adapted to 641–1024px */
+    @media (min-width:641px) and (max-width:1024px){
+      .hero-character{
+        width:min(120vw,1100px);
+        max-width:none;
+        right:-28vw;
+        bottom:-5vh;
+        z-index:3;
+      }
+      .hero-title{
+        left:-8%;
+        top:4%;
+        width:116%;
+        height:92%;
+        z-index:4;
+        transform:translateY(-28%) scaleX(.93) scaleY(.405);
+        transform-origin:center center;
+      }
+      .hero-title::before{z-index:0}
+      .hero-title::after{z-index:2;opacity:.36;filter:brightness(1.2) contrast(1.05)}
+      .hero-title img{position:relative;z-index:1;opacity:1;filter:brightness(1.2) contrast(1.05)}
+    }
+
+    @media (max-width:640px){
+      .container,.site-header{width:calc(100% - 24px)}
+      .site-header{height:48px;top:10px;left:12px;right:12px;width:auto;z-index:1000;transform:none;padding:0 15px;border-radius:18px;transition:background .35s ease,border-color .35s ease,box-shadow .35s ease}.logo{position:relative;z-index:52;font-size:.78rem;transition:color .3s ease}.menu-button{display:block}
+      .desktop-nav{display:flex;position:fixed;inset:0;width:100vw;height:100dvh;z-index:990;flex-direction:column;align-items:flex-start;justify-content:center;gap:0;padding:88px 28px 42px;background:var(--navy);border:0;border-radius:0;box-shadow:none;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-18px);transition:opacity .18s ease,transform .2s cubic-bezier(.22,.61,.36,1),visibility 0s linear .2s;will-change:opacity,transform}
+      .desktop-nav.open{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0);transition:opacity .18s ease,transform .2s cubic-bezier(.22,.61,.36,1),visibility 0s}
+      .desktop-nav .nav-link{width:100%;padding:15px 0;color:#eef6fb;border-bottom:1px solid rgba(168,205,232,.16);font-size:clamp(2rem,10vw,3rem);line-height:1.05;letter-spacing:-.03em}
+      .desktop-nav .nav-link:hover,.desktop-nav .nav-link:focus-visible{color:white;background:#788894}
+      body.menu-open{overflow:hidden}body.menu-open .site-header{overflow:visible;background:transparent;border-color:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}body.menu-open .site-header::after{display:none}body.menu-open .site-header .logo,body.menu-open .menu-button{color:white}
+      .hero{min-height:620px;align-items:flex-end;background:#c8d1d8}
+      .hero::after{height:28%;background:linear-gradient(transparent,rgba(13,20,27,.3) 52%,rgba(8,13,19,.82) 100%)}
+      .hero-layout{width:100%;min-height:620px}
+      .hero-title{left:-110px;top:33px;width:189.8%;height:auto;transform:scaleX(.846) scaleY(.95);transform-origin:center top;z-index:4;border:0;background:none;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;filter:drop-shadow(1px 2px 1px rgba(44,78,103,.17)) drop-shadow(0 10px 26px rgba(23,67,99,.11))}
+      .hero-title::before{display:block;content:"";position:absolute;z-index:2;inset:0;width:auto;height:auto;border-radius:0;background:url("https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/nova-grid-title.png") center top/100% auto no-repeat;clip-path:inset(50% 0 0 0);transform:translateY(-6%);filter:brightness(1.15) contrast(1.03);opacity:1;pointer-events:none}
+      .hero-title::after{display:block;content:"";position:absolute;z-index:-1;left:2%;right:2%;top:-3%;bottom:13%;border-radius:38px;background:radial-gradient(ellipse at 42% 40%,rgba(151,205,236,.42) 0%,rgba(174,216,239,.24) 44%,rgba(203,229,242,.08) 68%,transparent 84%);filter:blur(10px);opacity:1;pointer-events:none}
+      .hero-title img{display:block;width:100%;height:auto;object-fit:contain;opacity:1;filter:brightness(1.15) contrast(1.03);clip-path:inset(0 0 50% 0)}
+      .hero-character{width:270vw;max-width:1080px;right:50%;bottom:0;z-index:2;transform:translateX(50%)}
+      .hero-layout::after{display:none}
+      .hero-copy{left:7%;right:7%;top:auto;bottom:7%;z-index:5;gap:8px;max-width:none}
+      .hero-id{align-self:flex-start;padding:8px 12px;font-size:.57rem;color:#eef6fb;background:rgba(8,20,31,.62);border-color:rgba(198,226,244,.3);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+      .hero-actions{display:grid;grid-template-columns:1.12fr .88fr;width:100%;gap:8px}
+      .hero-actions .button{width:100%;min-height:42px;padding:10px 8px;font-size:.58rem;white-space:nowrap;background:rgba(105,155,190,.9);border-color:rgba(221,239,249,.72);color:#fff;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.hero-actions .button.secondary{background:rgba(235,244,249,.84);color:var(--navy)}.button{font-size:.62rem;padding:12px 15px}.button.secondary{padding-inline:8px}
+      section{padding:56px 0}
+      .section-intro{grid-template-columns:1fr;gap:16px;margin-bottom:28px}.section-copy{margin:0}.section-title{font-size:2.35rem;line-height:.95}.section-label{font-size:.6rem;margin-bottom:12px}
+      .featured-grid{display:grid;grid-template-columns:1fr;grid-template-rows:auto;gap:18px}.story-card,.story-card.featured-main{grid-row:auto;min-height:300px;grid-template-columns:1fr;grid-template-rows:52% 1fr}.featured-grid .story-card,.featured-grid .story-card.featured-main{height:330px;min-height:330px;grid-template-rows:165px 165px}
+      .card-content{padding:16px}.card-title{font-size:1.02rem}.card-text{font-size:.72rem}
+      .signals-wrap{border-radius:28px;padding:26px 14px 22px}.signals-wrap .section-intro{margin-bottom:24px}.signals-wrap .section-title{font-size:2rem}.signal-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.signal-card{min-height:300px;grid-template-rows:43% 1fr;border-radius:18px}.signal-card .card-content{padding:12px}.signal-card .card-title{font-size:.92rem}.signal-card .card-text{font-size:.62rem}
+      .nova-panel{grid-template-columns:1fr;padding:18px;border-radius:24px}.nova-title{font-size:1.75rem}.nova-copy{font-size:.78rem}.feature{padding:14px 0}.nova-visual{min-height:500px;grid-row:2}.tracking-label{font-size:.54rem}
+      .filter-row{justify-content:flex-start}.editorial-grid{display:grid;grid-template-columns:1fr;grid-template-rows:auto;gap:18px}.editorial-main{grid-row:auto;min-height:370px}.editorial-copy{left:20px;right:20px;bottom:22px}.editorial-copy h3{font-size:1.75rem}.editorial-grid .story-card{min-height:280px;grid-template-columns:1fr;grid-template-rows:50% 1fr}
+      .editorial-grid .virtual-fashion-card .card-image img{object-position:center top}
+      .editorial-grid.is-filtered>article:not([hidden]){height:390px;min-height:360px}
+      .editorial-grid.is-filtered>.editorial-main:not([hidden]) .editorial-copy{left:20px;right:20px;bottom:22px}.editorial-grid.is-filtered>.editorial-main:not([hidden]) .editorial-copy h3{font-size:1.45rem}
+      #about{padding-bottom:0}
+      .particle-transition{height:360px;margin-top:-24px}
+      .final-cta{top:51%;width:calc(100% - 32px);padding:26px 20px 34px;border-radius:26px}.final-cta-label{font-size:.56rem;margin-bottom:9px}.final-cta h2{font-size:2rem;margin-bottom:10px}.final-cta p{font-size:.72rem;margin-bottom:18px}.final-cta .button{min-width:130px}
+      .particle-video{display:none}
+      .newsletter{padding-bottom:16px}.newsletter-panel{border-radius:24px;padding:22px 18px;flex-direction:column;align-items:flex-start;gap:18px}.signup{height:48px}.signup .button{font-size:.56rem}.footer-nav{justify-content:flex-start;gap:14px 18px}.footer-meta{white-space:normal}
+      .floating-rail{right:12px;top:auto;bottom:16px;padding:0;background:transparent;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;transform:translateY(14px)}body.rail-visible .floating-rail{transform:translateY(0)}.rail-progress,.rail-menu-button,.rail-panel{display:none}.rail-top{width:44px;height:44px;background:rgba(244,249,252,.92);border:1px solid white;box-shadow:0 12px 30px rgba(7,24,42,.16);backdrop-filter:blur(14px)}
+    }
+
+    @media (max-width:380px){
+      .hero-title{top:27px}
+      .hero-character{width:282vw;max-width:1080px;right:50%;bottom:0;transform:translateX(50%)}
+      .hero-actions .button{font-size:.54rem;letter-spacing:.035em}
+    }
+  
+    @media (prefers-reduced-motion: reduce){
+      html{scroll-behavior:auto}
+      .particle-video{display:none}
+      *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+    }
+
+    /* Scroll-driven hero engine: structural rules preserved from template.html */
+    html{scroll-behavior:auto}
+    #scroll-container{position:relative;height:calc(var(--vh,100vh) * 3)}
+    #hero{position:sticky;top:0;height:var(--vh,100vh);min-height:var(--vh,100vh);width:100%;overflow:hidden;z-index:1;padding:0}
+    #bg-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:contents;transform-origin:center center}
+    #hero-content{position:absolute;inset:0;z-index:3;will-change:transform,opacity}
+    #hero .hero-layout{min-height:var(--vh,100vh)}
+    #hero-overlay{position:absolute;inset:0;z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px;opacity:0;pointer-events:none;will-change:opacity,transform}
+    .hero-overlay-label{font-family:"Space Grotesk",Arial,sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(9,28,47,.56);margin-bottom:18px}
+    .hero-overlay-title{font-family:"Space Grotesk",Arial,sans-serif;font-size:clamp(3rem,7vw,7.5rem);font-weight:700;line-height:.9;letter-spacing:-.055em;color:rgba(245,250,252,.94);text-shadow:0 3px 2px rgba(24,62,88,.22),0 18px 44px rgba(29,82,118,.18)}
+    #section-2{position:sticky;top:0;height:var(--vh,100vh);z-index:20;will-change:transform;box-shadow:0 -32px 80px rgba(9,28,47,.18);border-radius:48px 48px 0 0;overflow:hidden;background:linear-gradient(180deg,#edf3f6,#e8f0f5);display:flex;align-items:center;justify-content:center;padding:0}
+    #section-2 #featured{width:100%;height:100%;padding:clamp(76px,8vh,96px) 0 28px}
+    #section-2 .section-intro{margin-bottom:22px}
+    #section-2 .section-title{font-size:clamp(2.5rem,4.4vw,4.7rem)}
+    #section-2 .featured-grid{height:calc(var(--vh,100vh) - 230px);grid-template-rows:repeat(2,minmax(0,1fr))}
+
+    @media (max-width:1024px){
+      #section-2 #featured{padding:72px 0 22px}
+      #section-2 .featured-grid{height:calc(var(--vh,100vh) - 210px)}
+    }
+    @media (max-width:640px){
+      #hero-overlay{padding:24px}
+      .hero-overlay-title{font-size:clamp(2.6rem,13vw,4.8rem)}
+      #section-2{border-radius:28px 28px 0 0}
+      #section-2 #featured{padding:66px 0 14px}
+      #section-2 .section-intro{margin-bottom:14px}
+      #section-2 .section-copy{display:none}
+      #section-2 .section-title{font-size:2rem}
+      #section-2 .featured-grid{height:calc(var(--vh,100vh) - 170px);display:block}
+      #section-2 .story-card{display:none}
+      #section-2 .story-card.featured-main{display:grid;height:100%;min-height:0;grid-template-rows:55% 45%}
+    }
+
+    /* Calm footer reveal: particles flow automatically, panel rises only 38px */
+    .newsletter{will-change:transform,opacity;transition:transform .85s cubic-bezier(.22,.61,.36,1),opacity .72s ease}
+    body.footer-reveal-ready .newsletter{transform:translateY(38px);opacity:0}
+    body.footer-reveal-ready .newsletter.is-visible{transform:translateY(0);opacity:1}
+
+    /* Restrained transitions between key sections */
+    body.section-motion-ready .section-reveal>.container{opacity:0;transform:translateY(30px);transition:opacity .78s ease,transform .9s cubic-bezier(.22,.61,.36,1)}
+    body.section-motion-ready .section-reveal.is-visible>.container{opacity:1;transform:translateY(0)}
+    body.section-motion-ready .mask-reveal{opacity:.18;clip-path:inset(0 0 16% 0 round 28px);filter:blur(5px);transition:opacity .8s ease .12s,clip-path 1.05s cubic-bezier(.22,.61,.36,1) .12s,filter .9s ease .12s}
+    body.section-motion-ready .section-reveal.is-visible .mask-reveal{opacity:1;clip-path:inset(0 0 0 0 round 28px);filter:blur(0)}
+
+    @media (max-width:640px){
+      body.section-motion-ready .section-reveal>.container{transform:translateY(22px)}
+      body.section-motion-ready .section-reveal.is-visible>.container{transform:translateY(0)}
+    }
+
+    /* One restrained hover language for every editorial/content card */
+    :is(.story-card,.signal-card,.editorial-main){
+      transition:transform .38s cubic-bezier(.22,.61,.36,1),border-color .38s ease,box-shadow .38s ease;
+    }
+    .editorial-main{border:1px solid transparent}
+    :is(.story-card,.signal-card,.editorial-main) :is(.card-image img,img){
+      transition:transform .65s cubic-bezier(.22,.61,.36,1),filter .45s ease;
+    }
+    @media (hover:hover) and (pointer:fine){
+      :is(.story-card,.signal-card,.editorial-main):is(:hover,:focus-within){
+        transform:translateY(-5px);
+        border-color:rgba(122,183,224,.64);
+        box-shadow:0 18px 42px rgba(18,57,87,.12),0 0 0 1px rgba(189,224,246,.28);
+      }
+      :is(.story-card,.signal-card,.editorial-main):is(:hover,:focus-within) :is(.card-image img,img){
+        transform:scale(1.025);
+        filter:saturate(.78) contrast(.98) brightness(1.035);
+      }
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      .signals-marquee-track{animation-play-state:paused}
+      body.section-motion-ready .section-reveal>.container,body.section-motion-ready .mask-reveal{opacity:1;transform:none;clip-path:none;filter:none}
+    }
+
+    @media (max-width:640px){
+      /* Reliable mobile fallback: no sticky scroll stage on first load. */
+      #scroll-container{height:auto!important}
+      #hero{position:relative!important;top:auto!important;height:var(--vh,100vh)!important;min-height:var(--vh,100vh)!important}
+      #section-2{position:relative!important;top:auto!important;height:auto!important;min-height:var(--vh,100vh)!important;transform:none!important;border-radius:28px 28px 0 0}
+      #section-2 #featured{height:auto!important;min-height:var(--vh,100vh)!important}
+      body .floating-rail{top:auto!important;bottom:14px!important;right:12px!important;opacity:1!important;visibility:visible!important;pointer-events:auto!important;transform:none!important}
+    }
+
+    /* TABLET: Featured Stories — larger centered heading, original card layout preserved */
+    @media (min-width:641px) and (max-width:1024px){
+      #section-2 .section-intro{
+        grid-template-columns:1fr!important;
+        justify-items:center!important;
+        align-items:center!important;
+        gap:12px!important;
+        margin-bottom:22px!important;
+        text-align:center!important;
+      }
+      #section-2 .section-intro > div{
+        width:100%!important;
+        text-align:center!important;
+      }
+      #section-2 .section-label{
+        justify-content:center!important;
+      }
+      #section-2 .section-title{
+        width:100%!important;
+        margin:10px auto 0!important;
+        font-size:clamp(4.25rem,8vw,6.1rem)!important;
+        line-height:.9!important;
+        letter-spacing:-.055em!important;
+        text-align:center!important;
+      }
+      #section-2 .section-copy{
+        max-width:560px!important;
+        margin:0 auto!important;
+        text-align:center!important;
+      }
+      #section-2 .featured-grid{
+        width:100%!important;
+        grid-template-columns:1fr 1fr!important;
+        grid-template-rows:repeat(2,minmax(0,1fr))!important;
+        height:calc(var(--vh,100vh) - 250px)!important;
+        gap:18px!important;
+        margin:0 auto!important;
+      }
+      #section-2 .story-card.featured-main{
+        grid-row:1 / 3!important;
+      }
+    }
+
+    /* TABLET FINAL: visibly enlarge Featured Stories title by 70% and center it */
+    @media (min-width:641px) and (max-width:1024px){
+      #section-2 .tablet-featured-title{
+        display:block!important;
+        width:100%!important;
+        max-width:none!important;
+        margin:8px auto 0!important;
+        font-size:clamp(6.5rem,13.6vw,10.4rem)!important;
+        line-height:.78!important;
+        letter-spacing:-.065em!important;
+        text-align:center!important;
+        white-space:normal!important;
+        transform:none!important;
+      }
+      #section-2 .section-intro,
+      #section-2 .section-intro>div,
+      #section-2 .section-label,
+      #section-2 .section-copy{
+        text-align:center!important;
+        justify-content:center!important;
+        justify-items:center!important;
+        margin-left:auto!important;
+        margin-right:auto!important;
+      }
+    }
+
+</style>
+
+<style id="tablet-featured-title-force-70">
+@media (min-width:768px) and (max-width:1199px){
+  #section-2 .section-intro{
+    grid-template-columns:1fr !important;
+    justify-items:center !important;
+    text-align:center !important;
+  }
+  #section-2 .section-intro > div{
+    width:100% !important;
+    text-align:center !important;
+  }
+  #section-2 .section-label{
+    justify-content:center !important;
+  }
+  #section-2 h2.section-title.tablet-featured-title{
+    display:block !important;
+    width:100% !important;
+    max-width:100% !important;
+    margin:18px auto 14px !important;
+    font-size:clamp(6.1rem, 14vw, 9.4rem) !important;
+    line-height:.78 !important;
+    letter-spacing:-.07em !important;
+    text-align:center !important;
+    white-space:normal !important;
+    transform:none !important;
+  }
+  #section-2 h2.section-title.tablet-featured-title br{
+    display:block !important;
+  }
+  #section-2 .section-copy{
+    max-width:520px !important;
+    margin:0 auto 22px !important;
+    text-align:center !important;
+  }
+}
+</style>
+
+<style id="tablet-featured-center-no-clip">
+@media (min-width:768px) and (max-width:1199px){
+  #section-2{
+    height:auto !important;
+    min-height:100vh !important;
+    overflow:visible !important;
+  }
+  #section-2 #featured{
+    width:100% !important;
+    height:auto !important;
+    min-height:100vh !important;
+    padding:clamp(72px,8vh,96px) 0 40px !important;
+    overflow:visible !important;
+  }
+  #section-2 .container{
+    width:min(92%,960px) !important;
+    max-width:960px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+    overflow:visible !important;
+  }
+  #section-2 .section-intro{
+    width:100% !important;
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    justify-content:center !important;
+    gap:14px !important;
+    margin:0 auto 28px !important;
+    text-align:center !important;
+  }
+  #section-2 .section-intro>div,
+  #section-2 .section-label,
+  #section-2 .section-copy{
+    width:100% !important;
+    max-width:100% !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    text-align:center !important;
+    justify-content:center !important;
+  }
+  #section-2 h2.section-title.tablet-featured-title{
+    width:100% !important;
+    max-width:100% !important;
+    margin:8px auto 4px !important;
+    padding:0 .08em !important;
+    box-sizing:border-box !important;
+    font-size:clamp(4.8rem,10.8vw,8.1rem) !important;
+    line-height:.82 !important;
+    letter-spacing:-.065em !important;
+    text-align:center !important;
+    overflow:visible !important;
+  }
+  #section-2 .section-copy{
+    max-width:600px !important;
+    margin-bottom:0 !important;
+  }
+  #section-2 .featured-grid{
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    margin:0 auto !important;
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+    grid-template-rows:repeat(2,minmax(260px,auto)) !important;
+    gap:18px !important;
+    overflow:visible !important;
+  }
+  #section-2 .story-card,
+  #section-2 .story-card.featured-main{
+    min-width:0 !important;
+    overflow:hidden !important;
+  }
+  #section-2 .story-card.featured-main{
+    grid-row:1 / 3 !important;
+  }
+}
+</style>
+
+<style id="tablet-featured-head-and-side-dot-fix">
+@media (min-width:768px) and (max-width:1199px){
+  /* Центрируем голову в нижней правой карточке */
+  #section-2 .featured-grid .story-card:nth-child(3) .card-image img{
+    object-position:center 18% !important;
+    transform:none !important;
+  }
+
+  /* Убираем боковой плавающий индикатор на планшете */
+  body .floating-rail{
+    display:none !important;
+  }
+}
+</style>
+
+<style id="tablet-featured-image-position-fix-v2">
+@media (min-width:768px) and (max-width:1199px){
+  /* Большой шар в левой карточке: сдвиг вправо на 20% */
+  #section-2 .featured-grid .story-card.featured-main .card-image img{
+    object-position:80% 50% !important;
+    transform:none !important;
+  }
+
+  /* Голова в нижней правой карточке: строго по центру */
+  #section-2 .featured-grid .story-card:nth-child(3) .card-image img{
+    object-position:50% 18% !important;
+    transform:none !important;
+  }
+}
+</style>
+
+<style id="tablet-overlay-title-plus15">
+@media (min-width:768px) and (max-width:1199px){
+  #hero-overlay .hero-overlay-title{
+    transform:scale(1.15) !important;
+    transform-origin:center center !important;
+  }
+}
+</style>
+
+<style id="tablet-globe-visible-right20-fix">
+@media (min-width:768px) and (max-width:1199px){
+  #section-2 .featured-grid .story-card.featured-main .card-image{
+    overflow:hidden !important;
+  }
+  #section-2 .featured-grid .story-card.featured-main .card-image img{
+    width:120% !important;
+    max-width:none !important;
+    height:100% !important;
+    object-fit:cover !important;
+    object-position:center center !important;
+    transform:translateX(0%) scale(1.05) !important;
+    transform-origin:center center !important;
+  }
+}
+</style>
+
+<style id="tablet-virtual-fashion-head-visible">
+@media (min-width:768px) and (max-width:1199px){
+  /* Опускаем стальную фигуру, чтобы голова полностью помещалась */
+  #about .editorial-grid .virtual-fashion-card .card-image{
+    overflow:hidden !important;
+  }
+  #about .editorial-grid .virtual-fashion-card .card-image img{
+    width:112% !important;
+    max-width:none !important;
+    height:112% !important;
+    object-fit:cover !important;
+    object-position:center top !important;
+    transform:translateY(10%) scale(1.02) !important;
+    transform-origin:center top !important;
+  }
+}
+</style>
+
+<style id="tablet-about-title-and-fashion-fix-v2">
+@media (min-width:768px) and (max-width:1199px){
+  /* Заголовок секции Inside the Grid: полностью помещаем без обрезания */
+  #about .section-intro{
+    grid-template-columns:minmax(0,1fr) auto !important;
+    align-items:start !important;
+    gap:18px !important;
+    overflow:visible !important;
+  }
+  #about .section-intro > div:first-child{
+    min-width:0 !important;
+    overflow:visible !important;
+  }
+  #about .section-title{
+    width:100% !important;
+    max-width:100% !important;
+    margin:0 !important;
+    padding:0 !important;
+    font-size:clamp(2.55rem,6.4vw,4.4rem) !important;
+    line-height:.92 !important;
+    letter-spacing:-.055em !important;
+    white-space:normal !important;
+    overflow:visible !important;
+    text-wrap:balance !important;
+  }
+  #about .filter-row{
+    max-width:100% !important;
+    flex-wrap:wrap !important;
+    justify-content:flex-end !important;
+  }
+
+  /* Стальную фигуру опускаем ещё ниже, чтобы верх головы не резался */
+  #about .editorial-grid .virtual-fashion-card .card-image{
+    overflow:hidden !important;
+  }
+  #about .editorial-grid .virtual-fashion-card .card-image img{
+    width:112% !important;
+    max-width:none !important;
+    height:112% !important;
+    object-fit:cover !important;
+    object-position:center top !important;
+    transform:translateY(18%) scale(1.02) !important;
+    transform-origin:center top !important;
+  }
+}
+</style>
+
+<style id="tablet-about-left-text-down-and-fashion-lower">
+@media (min-width:768px) and (max-width:1199px){
+  /* Опускаем текст в большой левой карточке, чтобы верхние строки не обрезались */
+  #about .editorial-main .editorial-copy{
+    bottom:10px !important;
+    transform:translateY(0) !important;
+  }
+  #about .editorial-main .editorial-copy h3{
+    margin-top:0 !important;
+    margin-bottom:10px !important;
+    line-height:.98 !important;
+  }
+
+  /* Стальную фигуру опускаем ещё ниже, чтобы край головы полностью был виден */
+  #about .editorial-grid .virtual-fashion-card .card-image img{
+    transform:translateY(16%) scale(1.02) !important;
+  }
+}
+</style>
+
+<style id="tablet-fashion-head-up-real">
+@media (min-width:768px) and (max-width:1199px){
+  #about .editorial-grid .virtual-fashion-card .card-image img{
+    transform:translateY(0%) scale(1.02) !important;
+    object-position:center top !important;
+  }
+}
+</style>
+
+<style id="desktop-signals-separation-fix">
+@media (min-width:1101px) and (min-height:750px){
+  /* Desktop: keep Latest Signals clearly below the previous section */
+  #signals{
+    padding-top:32px !important;
+    height:calc(100vh + 732px) !important;
+    overflow:clip !important;
+  }
+  #signals .signals-wrap{
+    box-sizing:border-box !important;
+    width:min(var(--signals-width, calc(100vw - 48px)), calc(100vw - 48px)) !important;
+    max-width:calc(100vw - 48px) !important;
+    margin-inline:auto !important;
+    padding-left:42px !important;
+    padding-right:42px !important;
+  }
+  #signals .section-intro{
+    width:100% !important;
+    min-width:0 !important;
+  }
+  #signals .section-title{
+    max-width:100% !important;
+    overflow:visible !important;
+  }
+}
+</style>
+
+<style id="desktop-featured-bottom-corners-fix">
+@media (min-width:1200px){
+  /* Оставляем воздух снизу, чтобы нижние скругления карточек не обрезались */
+  #section-2 #featured{
+    box-sizing:border-box !important;
+    padding-bottom:48px !important;
+  }
+  #section-2 .featured-grid{
+    height:calc(var(--vh,100vh) - 250px) !important;
+    padding-bottom:2px !important;
+    box-sizing:border-box !important;
+  }
+  #section-2 .story-card,
+  #section-2 .story-card.featured-main{
+    border-radius:28px !important;
+    overflow:hidden !important;
+    clip-path:inset(0 round 28px) !important;
+  }
+}
+</style>
+
+
+
+<style id="desktop-signals-transparent-air-gap-fix">
+@media (min-width:1200px){
+  /* Real transparent air gap between Featured Stories and Latest Signals */
+  #signals{
+    margin-top:60px !important;
+    padding-top:0 !important;
+    background:transparent !important;
+    height:calc(100vh + 700px) !important;
+  }
+}
+</style>
+
+<style id="desktop-featured-corners-visible-final">
+@media (min-width:1200px){
+  /* Keep the full rounded bottoms of the Featured Stories cards visible */
+  #section-2{
+    overflow:visible !important;
+  }
+  #section-2 #featured{
+    height:100% !important;
+    padding-bottom:76px !important;
+    box-sizing:border-box !important;
+  }
+  #section-2 .featured-grid{
+    height:calc(var(--vh,100vh) - 304px) !important;
+    max-height:calc(var(--vh,100vh) - 304px) !important;
+    overflow:visible !important;
+  }
+  #section-2 .story-card,
+  #section-2 .story-card.featured-main{
+    border-radius:28px !important;
+    clip-path:none !important;
+    overflow:hidden !important;
+  }
+}
+</style>
+</head>
+<body>
+
+  <main id="top">
+    <header class="site-header" aria-label="Primary navigation">
+        <a class="logo" href="#top">NOVA GRID</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-label="Open menu" aria-controls="primary-nav">MENU</button>
+        <nav class="desktop-nav" id="primary-nav">
+          <a class="nav-link" href="#about" data-nav-filter="games">GAMES</a><a class="nav-link" href="#about" data-nav-filter="tech">TECH</a><a class="nav-link" href="#about" data-nav-filter="culture">CULTURE</a><a class="nav-link" href="#about" data-nav-filter="all">ABOUT</a>
+        </nav>
+      </header>
+    <div id="scroll-container">
+    <section class="hero" id="hero" aria-label="Nova Grid introduction">
+      <h1 class="sr-only">Nova Grid — gaming, technology and digital culture</h1>
+      <img class="hero-background" width="1934" height="1080" decoding="async" fetchpriority="high" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/hero_static_clean.jpg" alt="">
+      <video class="hero-video" id="bg-video" autoplay muted loop playsinline preload="auto" poster="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/hero_static_clean.jpg" aria-hidden="true" tabindex="-1">
+        <source src="assets/video/hero-scroll.mp4" type="video/mp4">
+        <source src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/video/hero-video.mp4" type="video/mp4">
+      </video>
+      <div id="hero-content">
+      <div class="hero-title" aria-hidden="true"><img width="2000" height="796" decoding="async" fetchpriority="high" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/nova-grid-title.png" alt=""></div>
+      <div class="hero-layout">
+        
+        <div class="hero-character">
+          <picture>
+            <source media="(max-width: 640px)" srcset="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/nova-character-mobile-imagekit.webp?updatedAt=1784461046554" type="image/webp">
+            <img width="625" height="700" decoding="async" fetchpriority="high" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/nova-character.png" alt="Nova cyber character portrait">
+          </picture>
+        </div>
+        <div class="hero-copy">
+          <div class="hero-id">MEET NOVA · MODEL N–01</div>
+          <div class="hero-actions">
+            <a class="button" href="#featured">EXPLORE THE GRID</a>
+            <a class="button secondary" href="stories.html">LATEST STORIES</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="hero-overlay">
+        <p class="hero-overlay-label">GAMES · TECH · CULTURE</p>
+        <h2 class="hero-overlay-title">BEYOND<br>THE SCREEN</h2>
+      </div>
+    </section>
+
+    <section id="section-2">
+      <div id="featured">
+      <div class="container">
+        <div class="section-intro">
+          <div><div class="section-label"><span class="number">01</span><span class="line"></span><span>Featured stories</span></div><h2 class="section-title tablet-featured-title">BEYOND<br>THE SCREEN</h2></div>
+          <p class="section-copy">Three perspectives on the ideas changing how we play, create and connect.</p>
+        </div>
+        <div class="featured-grid">
+          <article class="story-card featured-main" id="games"><div class="card-image"><img width="1448" height="1086" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/next-generation-game-worlds.webp" alt="Glass globe representing a digital game world"></div><div class="card-content"><span class="category">Games</span><h3 class="card-title">The Next Generation of Game Worlds</h3><p class="card-text">How AI, procedural systems and player-driven stories are reshaping virtual worlds.</p></div><a class="card-link" href="articles/next-generation-game-worlds.html" aria-label="Read The Next Generation of Game Worlds"></a></article>
+          <article class="story-card" id="tech"><div class="card-image"><img width="1659" height="948" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/ai-beyond-the-hype.webp" alt="Futuristic blue-white data corridor"></div><div class="card-content"><span class="category">Technology</span><h3 class="card-title">AI Beyond the Hype: Building What’s Next</h3><p class="card-text">Tools and interfaces transforming creativity and digital experience.</p></div><a class="card-link" href="articles/ai-beyond-the-hype.html" aria-label="Read AI Beyond the Hype: Building What’s Next"></a></article>
+          <article class="story-card" id="culture"><div class="card-image"><img width="1449" height="1086" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/digital-identities.webp" alt="Silver android with subtle blue facial circuitry"></div><div class="card-content"><span class="category">Digital culture</span><h3 class="card-title">Digital Identities & Virtual Societies</h3><p class="card-text">Why avatars and online spaces are becoming extensions of who we are.</p></div><a class="card-link" href="articles/digital-identities-virtual-societies.html" aria-label="Read Digital Identities and Virtual Societies"></a></article>
+        </div>
+      </div>
+      </div>
+    </section>
+    </div>
+
+    <section id="signals" class="section-reveal">
+      <div class="container signals-wrap">
+        <div class="section-intro">
+          <div><div class="section-label"><span class="number">02</span><span class="line"></span><span>Latest signals</span></div><h2 class="section-title">WHAT’S MOVING THROUGH THE GRID</h2></div>
+          <p class="section-copy">New ideas, emerging technologies and stories from across the digital world.</p>
+        </div>
+        <div class="signals-marquee" aria-label="Nova Grid topics" tabindex="0">
+          <div class="signals-marquee-track">
+            <div class="signals-marquee-row">GAMES · TECHNOLOGY · DIGITAL CULTURE · ARTIFICIAL INTELLIGENCE · VIRTUAL WORLDS · GAMES · TECHNOLOGY · DIGITAL CULTURE · ARTIFICIAL INTELLIGENCE · VIRTUAL WORLDS ·&nbsp;</div>
+            <div class="signals-marquee-row" aria-hidden="true">GAMES · TECHNOLOGY · DIGITAL CULTURE · ARTIFICIAL INTELLIGENCE · VIRTUAL WORLDS · GAMES · TECHNOLOGY · DIGITAL CULTURE · ARTIFICIAL INTELLIGENCE · VIRTUAL WORLDS ·&nbsp;</div>
+            <div class="signals-marquee-row" aria-hidden="true">GAMES · TECHNOLOGY · DIGITAL CULTURE · ARTIFICIAL INTELLIGENCE · VIRTUAL WORLDS · GAMES · TECHNOLOGY · DIGITAL CULTURE · ARTIFICIAL INTELLIGENCE · VIRTUAL WORLDS ·&nbsp;</div>
+          </div>
+        </div>
+        <div class="signal-grid">
+          <article class="signal-card"><div class="card-image"><img width="1659" height="948" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/npcs-feel-alive.webp" alt="Futuristic multi-arm machine with a blue optical core"></div><div class="card-content"><span class="category">Games</span><h3 class="card-title">Can NPCs Finally Feel Alive?</h3><p class="card-text">AI is changing conversations inside games.</p></div><a class="card-link" href="articles/can-npcs-finally-feel-alive.html" aria-label="Read Can NPCs Finally Feel Alive?"></a></article>
+          <article class="signal-card"><div class="card-image"><img width="1122" height="1402" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/small-strange-games.webp" alt="Organic chrome sculpture on a soft white background"></div><div class="card-content"><span class="category">Culture</span><h3 class="card-title">The Return of Small, Strange Games</h3><p class="card-text">Independent studios keep taking the biggest risks.</p></div><a class="card-link" href="articles/return-of-small-strange-games.html" aria-label="Read The Return of Small, Strange Games"></a></article>
+          <article class="signal-card"><div class="card-image"><img width="1659" height="948" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/future-you-can-feel.webp" alt="Robotic hand interacting with a transparent stream of data"></div><div class="card-content"><span class="category">Tech</span><h3 class="card-title">The Future You Can Feel</h3><p class="card-text">Haptic interfaces bring touch into digital space.</p></div><a class="card-link" href="articles/future-you-can-feel.html" aria-label="Read The Future You Can Feel"></a></article>
+          <article class="signal-card"><div class="card-image"><img width="1344" height="768" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/who-owns-your-avatar.webp" alt="Wireframe digital human profile with network nodes"></div><div class="card-content"><span class="category">Culture</span><h3 class="card-title">Who Owns Your Avatar?</h3><p class="card-text">Digital identity is becoming more valuable—and complex.</p></div><a class="card-link" href="articles/who-owns-your-avatar.html" aria-label="Read Who Owns Your Avatar?"></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nova" class="section-reveal">
+      <div class="container">
+        <div class="section-intro">
+          <div><div class="section-label"><span class="number">03</span><span class="line"></span><span>Interactive feature</span></div><h2 class="section-title">MEET NOVA</h2></div>
+          <p class="section-copy">Your digital guide—built to observe, respond and adapt.</p>
+        </div>
+        <div class="nova-panel">
+          <div class="nova-information">
+            <div class="system-kicker">System profile / N–01</div>
+            <h3 class="nova-title">NOVA: A FACE BETWEEN HUMAN AND MACHINE</h3>
+            <p class="nova-copy">Move through the interface to reveal how Nova sees, reacts and remembers.</p>
+            <div class="feature-list">
+              <div class="feature" tabindex="0"><span class="feature-number">01</span><span class="feature-name">VISUAL TRACKING</span><span class="feature-toggle">+</span><span class="feature-detail">Nova follows pointer movement and responds to the position of the viewer.</span></div>
+              <div class="feature" tabindex="0"><span class="feature-number">02</span><span class="feature-name">ADAPTIVE EXPRESSION</span><span class="feature-toggle">+</span><span class="feature-detail">Micro reactions create a subtle sense of attention without becoming theatrical.</span></div>
+              <div class="feature" tabindex="0"><span class="feature-number">03</span><span class="feature-name">SYNTHETIC MEMORY</span><span class="feature-toggle">+</span><span class="feature-detail">The interface remembers recent signals during the current visit.</span></div>
+              <div class="feature" tabindex="0"><span class="feature-number">04</span><span class="feature-name">HUMAN INTERFACE</span><span class="feature-toggle">+</span><span class="feature-detail">Designed to feel present and helpful—not perfect or overly human.</span></div>
+            </div>
+          </div>
+          <div class="nova-visual mask-reveal" aria-label="Interactive Nova tracking interface"><span class="tracking-label">CURSOR RESPONSIVE</span><span class="tracking-dot"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-reveal">
+      <div class="container">
+        <div class="section-intro">
+          <div><div class="section-label"><span class="number">04</span><span class="line"></span><span>Inside the Grid</span></div><h2 class="section-title">STORIES FOR THE DIGITALLY CURIOUS</h2></div>
+          <div class="filter-row"><button class="filter-pill" type="button" data-filter="games" aria-pressed="false">GAMES</button><button class="filter-pill" type="button" data-filter="tech" aria-pressed="false">TECH</button><button class="filter-pill" type="button" data-filter="culture" aria-pressed="false">CULTURE</button></div>
+        </div>
+        <div class="editorial-grid">
+          <article class="editorial-main mask-reveal" data-category="tech"><img width="1254" height="1254" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/human-machine-interfaces.webp" alt="AI microchip melting into liquid chrome circuit traces"><div class="editorial-copy"><span class="category">Deep dive / 08 min</span><h3>THE NEW LANGUAGE OF HUMAN–MACHINE INTERFACES</h3><p>Why the most advanced technology is beginning to feel quieter, softer and more human.</p></div><a class="card-link" href="articles/human-machine-interfaces.html" aria-label="Read The New Language of Human-Machine Interfaces"></a></article>
+          <article class="story-card" data-category="games"><div class="card-image"><img width="1024" height="1024" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/game-world-becomes-place.webp" alt="Vast blue futuristic city interior"></div><div class="card-content"><span class="category">Games</span><h3 class="card-title">When a Game World Becomes a Place</h3><p class="card-text">Some virtual environments stay with us like real memories.</p></div><a class="card-link" href="articles/game-world-becomes-place.html" aria-label="Read When a Game World Becomes a Place"></a></article>
+          <article class="story-card virtual-fashion-card" data-category="culture"><div class="card-image"><img width="1024" height="1024" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/virtual-fashion.webp" alt="Silver humanoid wearing a translucent futuristic garment"></div><div class="card-content"><span class="category">Culture</span><h3 class="card-title">Virtual Fashion Is Becoming Real</h3><p class="card-text">Digital objects are moving beyond skins and experiments.</p></div><a class="card-link" href="articles/virtual-fashion-is-becoming-real.html" aria-label="Read Virtual Fashion Is Becoming Real"></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="particle-transition" aria-label="Nova Grid particle field">
+      <img class="particle-poster" width="1280" height="714" loading="lazy" decoding="async" src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/0719_poster.jpg" alt="">
+      <video class="particle-video" muted loop playsinline preload="metadata" poster="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/0719_poster.jpg" aria-hidden="true" tabindex="-1">
+        <source src="https://ik.imagekit.io/novagridsvitlana/NovaGrid_CDN_Assets_Final/NovaGrid_CDN_Assets_Final/assets/images/0719_web_small.mp4" type="video/mp4">
+      </video>
+      <div class="final-cta">
+        <span class="final-cta-label">Your next signal</span>
+        <h2>STEP INTO THE GRID</h2>
+        <p>One considered selection of emerging technology, digital culture and new worlds—delivered once a week.</p>
+        <form class="signup" aria-label="Newsletter signup" action="https://formspree.io/f/mykrwlaj" method="post" accept-charset="UTF-8" novalidate><label class="sr-only" for="email">Email address</label><input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Enter your email" required><input type="hidden" name="_subject" value="Nova Grid Newsletter signup"><button class="button" type="submit">JOIN THE GRID</button><p class="signup-feedback" role="status" aria-live="polite"></p></form>
+      </div>
+    </section>
+  </main>
+
+  <aside class="floating-rail" aria-label="Quick page navigation">
+    <div class="rail-progress" aria-hidden="true"><span>0%</span></div>
+    <button class="rail-menu-button" type="button" aria-expanded="false" aria-controls="rail-panel">GRID</button>
+    <a class="rail-top" href="#top" aria-label="Back to top">↑</a>
+    <nav class="rail-panel" id="rail-panel" aria-label="Page sections">
+      <a href="#top">Hero</a>
+      <a href="#signals">Grid</a>
+      <a href="#nova">Nova</a>
+      <a href="#about">Stories</a>
+    </nav>
+  </aside>
+
+  <footer class="newsletter" id="footer-panel">
+    <div class="container newsletter-panel">
+      <strong class="logo">NOVA GRID</strong>
+      <div class="footer-nav" aria-label="Future footer links">
+        <span class="footer-icon" role="img" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r=".7" fill="currentColor" stroke="none"></circle></svg></span>
+        <span class="footer-icon" role="img" aria-label="Privacy" title="Privacy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.8 2.8 8.1 7 10 4.2-1.9 7-5.2 7-10V6l-7-3Z"></path><path d="m9 12 2 2 4-4"></path></svg></span>
+        <span class="footer-icon" role="img" aria-label="Impressum" title="Impressum"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21h16M6 21V9h12v12M9 13h1M14 13h1M9 17h1M14 17h1M5 9l7-6 7 6"></path></svg></span>
+        <span class="footer-icon" role="img" aria-label="Contact" title="Contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="m4 7 8 6 8-6"></path></svg></span>
+      </div>
+      <span class="footer-meta">© 2026 NOVA GRID · CONCEPT PROJECT</span>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton=document.querySelector('.menu-button');
+    const nav=document.querySelector('.desktop-nav');
+    const isMobileNav=()=>window.matchMedia('(max-width:640px)').matches;
+    const setMenuState=open=>{
+      nav.classList.toggle('open',open);
+      document.body.classList.toggle('menu-open',open);
+      document.documentElement.classList.toggle('menu-open',open);
+      menuButton.setAttribute('aria-expanded',String(open));
+      menuButton.setAttribute('aria-label',open?'Close menu':'Open menu');
+      menuButton.textContent=open?'CLOSE':'MENU';
+      if(!open){
+        document.body.style.removeProperty('overflow');
+        document.documentElement.style.removeProperty('overflow');
+      }
+    };
+    const resetMenu=()=>setMenuState(false);
+    resetMenu();
+
+    menuButton.addEventListener('click',event=>{
+      event.preventDefault();
+      setMenuState(!nav.classList.contains('open'));
+    });
+
+    let navRun=0;
+    const goToMobileSection=link=>{
+      if(!isMobileNav())return false;
+      const hash=link.getAttribute('href');
+      const target=hash&&hash!=='#'?document.querySelector(hash):null;
+      if(!target)return false;
+
+      const run=++navRun;
+      const filterName=link.dataset.navFilter;
+      setMenuState(false);
+
+      const jump=()=>{
+        if(run!==navRun)return;
+        if(filterName==='all'){
+          document.querySelector('.filter-pill.active')?.click();
+        }else if(filterName){
+          const filter=document.querySelector(`.filter-pill[data-filter="${filterName}"]`);
+          if(filter&&!filter.classList.contains('active'))filter.click();
+        }
+        target.scrollIntoView({block:'start',behavior:'auto'});
+        const top=Math.max(0,window.scrollY+target.getBoundingClientRect().top);
+        document.documentElement.scrollTop=top;
+        document.body.scrollTop=top;
+        window.scrollTo(0,top);
+        document.body.classList.add('rail-visible');
+        history.replaceState?.(null,'',hash);
+      };
+
+      jump();
+      requestAnimationFrame(jump);
+      setTimeout(jump,80);
+      setTimeout(jump,250);
+      setTimeout(jump,700);
+      return true;
+    };
+
+    nav.querySelectorAll('a[href^="#"]').forEach(link=>{
+      link.addEventListener('click',event=>{
+        if(!isMobileNav())return;
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        goToMobileSection(link);
+      });
+    });
+
+    document.addEventListener('keydown',event=>{if(event.key==='Escape'&&nav.classList.contains('open')){setMenuState(false);menuButton.focus();}});
+    window.addEventListener('resize',()=>{if(!isMobileNav())setMenuState(false);},{passive:true});
+    window.addEventListener('pageshow',resetMenu);
+
+
+    document.querySelectorAll('.feature').forEach(item=>{
+      const toggle=()=>item.classList.toggle('active');
+      item.addEventListener('click',toggle);
+      item.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}});
+    });
+
+    const filterButtons=[...document.querySelectorAll('.filter-pill[data-filter]')];
+    const editorialGrid=document.querySelector('.editorial-grid');
+    const editorialItems=editorialGrid?[...editorialGrid.querySelectorAll('[data-category]')]:[];
+    filterButtons.forEach(button=>button.addEventListener('click',()=>{
+      const selected=button.dataset.filter;
+      const reset=button.classList.contains('active');
+      filterButtons.forEach(item=>{item.classList.remove('active');item.setAttribute('aria-pressed','false');});
+      if(reset){
+        editorialGrid.classList.remove('is-filtered');
+        editorialItems.forEach(item=>item.hidden=false);
+        return;
+      }
+      button.classList.add('active');
+      button.setAttribute('aria-pressed','true');
+      editorialGrid.classList.add('is-filtered');
+      editorialItems.forEach(item=>item.hidden=item.dataset.category!==selected);
+    }));
+
+    const visual=document.querySelector('.nova-visual');
+    const dot=visual.querySelector('.tracking-dot');
+    const moveDot=(clientX,clientY)=>{const r=visual.getBoundingClientRect();const x=Math.max(18,Math.min(r.width-18,clientX-r.left));const y=Math.max(18,Math.min(r.height-18,clientY-r.top));dot.style.left=x+'px';dot.style.top=y+'px'};
+    visual.addEventListener('pointermove',e=>moveDot(e.clientX,e.clientY));
+    visual.addEventListener('pointerleave',()=>{dot.style.left='50%';dot.style.top='50%'});
+
+    const heroVideo=document.querySelector('.hero-video');
+    if(heroVideo&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      const revealHero=()=>{heroVideo.classList.add('is-ready');heroVideo.play().catch(()=>{});};
+      if(heroVideo.readyState>=2){revealHero();}
+      else{
+        heroVideo.addEventListener('loadedmetadata',revealHero,{once:true});
+        heroVideo.addEventListener('loadeddata',revealHero,{once:true});
+        heroVideo.addEventListener('canplay',revealHero,{once:true});
+      }
+      window.setTimeout(revealHero,900);
+    }
+
+    const particleVideo=document.querySelector('.particle-video');
+    if(particleVideo&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      const revealParticles=()=>particleVideo.classList.add('is-ready');
+      if(particleVideo.readyState>=3){revealParticles();}else{particleVideo.addEventListener('canplay',revealParticles,{once:true});}
+      const particleObserver=new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+          if(entry.isIntersecting){particleVideo.play().catch(()=>{});}
+          else{particleVideo.pause();}
+        });
+      },{rootMargin:'180px 0px'});
+      particleObserver.observe(particleVideo);
+    }
+
+    const footerPanel=document.getElementById('footer-panel');
+    if(footerPanel&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      document.body.classList.add('footer-reveal-ready');
+      const footerObserver=new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+          if(entry.isIntersecting){footerPanel.classList.add('is-visible');footerObserver.unobserve(footerPanel);}
+        });
+      },{threshold:.12,rootMargin:'0px 0px -5% 0px'});
+      footerObserver.observe(footerPanel);
+    }else if(footerPanel){footerPanel.classList.add('is-visible');}
+
+    const revealSections=[...document.querySelectorAll('.section-reveal')];
+    if(revealSections.length&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      document.body.classList.add('section-motion-ready');
+      const sectionObserver=new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+          if(entry.isIntersecting){entry.target.classList.add('is-visible');sectionObserver.unobserve(entry.target);}
+        });
+      },{threshold:.11,rootMargin:'0px 0px -8% 0px'});
+      revealSections.forEach(section=>sectionObserver.observe(section));
+    }else{revealSections.forEach(section=>section.classList.add('is-visible'));}
+
+    const signupForm=document.querySelector('.signup');
+    const signupEmail=document.getElementById('email');
+    const signupFeedback=signupForm?.querySelector('.signup-feedback');
+    signupForm?.addEventListener('submit',async event=>{
+      event.preventDefault();
+      signupForm.classList.remove('submitted','has-error');
+      if(!signupEmail?.checkValidity()){
+        signupForm.classList.add('has-error');
+        if(signupFeedback)signupFeedback.textContent='Please enter a valid email address.';
+        signupEmail?.focus();
+        return;
+      }
+      const submitButton=signupForm.querySelector('button');
+      submitButton.disabled=true;
+      submitButton.textContent='SENDING…';
+      if(signupFeedback)signupFeedback.textContent='Sending your signal…';
+      try{
+        const response=await fetch(signupForm.action,{method:'POST',body:new FormData(signupForm),headers:{Accept:'application/json'}});
+        if(!response.ok)throw new Error('Submission failed');
+        signupForm.classList.add('submitted');
+        submitButton.textContent='WELCOME TO THE GRID';
+        if(signupFeedback)signupFeedback.textContent='Success — your place in the Grid is reserved.';
+        signupEmail.value='';
+      }catch(error){
+        signupForm.classList.add('has-error');
+        submitButton.disabled=false;
+        submitButton.textContent='TRY AGAIN';
+        if(signupFeedback)signupFeedback.textContent='The signal could not be sent. Please try again.';
+      }
+    });
+    signupEmail?.addEventListener('input',()=>{
+      signupForm?.classList.remove('has-error');
+      if(signupFeedback&&!signupForm?.classList.contains('submitted'))signupFeedback.textContent='';
+    });
+
+    (()=>{
+      const novaRail=document.querySelector('.floating-rail');
+      const novaRailProgress=novaRail?.querySelector('.rail-progress span');
+      const novaRailButton=novaRail?.querySelector('.rail-menu-button');
+      const novaRailPanel=novaRail?.querySelector('.rail-panel');
+      const novaHeroTrack=document.getElementById('scroll-container');
+      const novaSignalsStage=document.getElementById('signals');
+      const novaSignalsPanel=novaSignalsStage?.querySelector('.signals-wrap');
+      const novaStoriesTitle=document.querySelector('#about .section-title');
+      const novaReducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+      const novaDesktopSignals=window.matchMedia('(min-width:1101px) and (min-height:750px) and (prefers-reduced-motion:no-preference)');
+      const novaClamp=value=>Math.max(0,Math.min(1,value));
+      let novaStoryWords=[];
+      let novaFrame=0;
+
+      if(novaStoriesTitle){
+        const original=novaStoriesTitle.textContent.trim();
+        novaStoriesTitle.setAttribute('aria-label',original);
+        novaStoriesTitle.innerHTML=original.split(/\s+/).map(word=>`<span class="story-word" aria-hidden="true">${word}</span>`).join(' ');
+        novaStoryWords=[...novaStoriesTitle.querySelectorAll('.story-word')];
+      }
+
+      const closeNovaRail=()=>{
+        if(!novaRail||!novaRailButton)return;
+        novaRail.classList.remove('menu-open');
+        novaRailButton.setAttribute('aria-expanded','false');
+      };
+      novaRailButton?.addEventListener('click',()=>{
+        const open=!novaRail.classList.contains('menu-open');
+        novaRail.classList.toggle('menu-open',open);
+        novaRailButton.setAttribute('aria-expanded',String(open));
+      });
+      novaRailPanel?.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeNovaRail));
+      document.addEventListener('pointerdown',event=>{if(novaRail&&!novaRail.contains(event.target))closeNovaRail();});
+      document.addEventListener('keydown',event=>{if(event.key==='Escape')closeNovaRail();});
+
+      const updateNovaScrollEffects=()=>{
+        novaFrame=0;
+        const pageMax=Math.max(1,document.documentElement.scrollHeight-window.innerHeight);
+        const pageProgress=novaClamp(window.scrollY/pageMax);
+        if(novaRail){
+          novaRail.style.setProperty('--page-progress',`${pageProgress*360}deg`);
+          if(novaRailProgress)novaRailProgress.textContent=`${Math.round(pageProgress*100)}%`;
+        }
+        if(novaHeroTrack){
+          // Mobile: show the back-to-top arrow as soon as the user has moved a little.
+          // Desktop: keep the original reveal point after the long hero sequence.
+          if(window.innerWidth<=640){
+            document.body.classList.add('rail-visible');
+          }else{
+            const railThreshold=novaHeroTrack.offsetTop+novaHeroTrack.offsetHeight-window.innerHeight+24;
+            document.body.classList.toggle('rail-visible',window.scrollY>railThreshold);
+            if(window.scrollY<=railThreshold)closeNovaRail();
+          }
+        }
+
+        if(novaSignalsStage&&novaSignalsPanel&&novaDesktopSignals.matches){
+          const range=Math.max(1,novaSignalsStage.offsetHeight-window.innerHeight);
+          const progress=novaClamp((window.scrollY-novaSignalsStage.offsetTop)/range);
+          const endWidth=Math.min(1180,window.innerWidth-48);
+          const endHeight=Math.max(780,Math.min(900,window.innerHeight-48));
+          const width=window.innerWidth+(endWidth-window.innerWidth)*progress;
+          const height=window.innerHeight+(endHeight-window.innerHeight)*progress;
+          novaSignalsPanel.style.setProperty('--signals-width',`${width}px`);
+          novaSignalsPanel.style.setProperty('--signals-height',`${height}px`);
+          novaSignalsPanel.style.setProperty('--signals-radius',`${42*progress}px`);
+          novaSignalsPanel.style.setProperty('--signals-top',`${Math.max(0,(window.innerHeight-height)/2)}px`);
+          novaSignalsPanel.style.setProperty('--signals-shadow',`${.08+.14*progress}`);
+        }else if(novaSignalsPanel){
+          ['--signals-width','--signals-height','--signals-radius','--signals-top','--signals-shadow'].forEach(property=>novaSignalsPanel.style.removeProperty(property));
+        }
+
+        if(novaStoriesTitle&&novaStoryWords.length){
+          const rect=novaStoriesTitle.getBoundingClientRect();
+          const reveal=novaReducedMotion.matches?1:novaClamp((window.innerHeight*.86-rect.top)/(window.innerHeight*.48));
+          novaStoryWords.forEach((word,index)=>{
+            const local=novaClamp(reveal*novaStoryWords.length-index*.72);
+            word.style.opacity=String(.2+.8*local);
+            word.style.transform=`translateY(${14*(1-local)}px)`;
+          });
+        }
+      };
+      const requestNovaUpdate=()=>{if(!novaFrame)novaFrame=requestAnimationFrame(updateNovaScrollEffects);};
+      window.addEventListener('scroll',requestNovaUpdate,{passive:true});
+      window.addEventListener('resize',requestNovaUpdate,{passive:true});
+      novaReducedMotion.addEventListener?.('change',requestNovaUpdate);
+      novaDesktopSignals.addEventListener?.('change',requestNovaUpdate);
+      updateNovaScrollEffects();
+    })();
+  </script>
+
+  <!-- Scroll-driven engine copied verbatim from the supplied template. -->
+  <script>
+  // -- vh фікс --
+  function setVh() {
+    // visualViewport враховує адресний рядок браузера на мобілі
+    const h = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    document.documentElement.style.setProperty('--vh', h + 'px');
+  }
+  setVh();
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(setVh, 150);
+  });
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(setVh, 150);
+    });
+  }
+
+  // -- Елементи --
+  const video           = document.getElementById('bg-video');
+  const heroContent     = document.getElementById('hero-content');
+  const heroOverlay     = document.getElementById('hero-overlay');
+  const section2        = document.getElementById('section-2');
+  const scrollContainer = document.getElementById('scroll-container');
+
+  // -- Відео стан --
+  let videoReady   = false;
+  let targetTime   = 0;
+  let currentTime  = 0;
+  let seekLocked   = false;
+  let lastProgress = -1;
+
+  video.addEventListener('loadedmetadata', () => { videoReady = true; });
+  video.load();
+
+  // -- Seek engine --
+  function doSeek() {
+    if (!videoReady || !video.duration) return;
+    if (Math.abs(targetTime - currentTime) < 0.05) { seekLocked = false; return; }
+    seekLocked  = true;
+    currentTime = targetTime;
+    if ('requestVideoFrameCallback' in video) {
+      video.requestVideoFrameCallback(() => { seekLocked = false; doSeek(); });
+    } else {
+      video.addEventListener('seeked', function onSeeked() {
+        video.removeEventListener('seeked', onSeeked);
+        seekLocked = false;
+        doSeek();
+      }, { once: true });
+    }
+    video.currentTime = currentTime;
+  }
+
+  // ============================================================
+  // SCROLL ENGINE
+  // Desktop: custom momentum wheel scroll
+  // Mobile: повністю нативний скрол iOS/Android
+  // ============================================================
+
+  const isMobile = () => window.innerWidth <= 640 || window.matchMedia('(pointer: coarse)').matches;
+
+  const EASE = 0.09;
+  let targetScrollY = 0;
+  let smoothScrollY = 0;
+
+  function maxScroll() {
+    return Math.max(0, document.body.scrollHeight - window.innerHeight);
+  }
+
+  // -- Анімація hero (спільна для обох режимів) --
+  function updateHeroAnimation(scrollY) {
+    const trackH = scrollContainer.offsetHeight - window.innerHeight;
+    if (trackH <= 0) return;
+    const progress = Math.max(0, Math.min(1, scrollY / trackH));
+
+    if (Math.abs(progress - lastProgress) < 0.0001) return;
+    lastProgress = progress;
+
+    // Відео: 0% → 60%
+    const videoP = Math.min(1, progress / 0.60);
+    if (videoReady && video.duration) {
+      targetTime = videoP * video.duration;
+      if (!seekLocked) doSeek();
+    }
+
+    // Текст: 0% → 30%
+    const textP = Math.min(1, progress / 0.30);
+    const ease  = textP < 0.5 ? 2*textP*textP : 1 - Math.pow(-2*textP+2, 2) / 2;
+    heroContent.style.transform = `translateY(${ease * -90}px)`;
+    heroContent.style.opacity   = (1 - ease).toFixed(3);
+
+    // Overlay: 30%→45% in, 50%→62% out
+    const ovIn  = Math.max(0, Math.min(1, (progress - 0.30) / 0.15));
+    const ovOut = Math.max(0, Math.min(1, (progress - 0.50) / 0.12));
+    const ovEaseIn  = ovIn  < 0.5 ? 2*ovIn*ovIn   : 1 - Math.pow(-2*ovIn+2,  2)/2;
+    const ovEaseOut = ovOut < 0.5 ? 2*ovOut*ovOut  : 1 - Math.pow(-2*ovOut+2, 2)/2;
+    const ovOpacity = ovEaseIn * (1 - ovEaseOut);
+    const ovY = (1 - ovEaseIn) * 30 + ovEaseOut * -30;
+    heroOverlay.style.opacity   = ovOpacity.toFixed(3);
+    heroOverlay.style.transform = isMobile() ? 'none' : `translateY(${ovY}px)`;
+
+    // Секція 2: наїзд 55% → 100%
+    const s2P    = Math.max(0, Math.min(1, (progress - 0.55) / 0.45));
+    const s2Ease = s2P < 0.5 ? 2*s2P*s2P : 1 - Math.pow(-2*s2P+2, 2) / 2;
+    const vhPx   = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--vh'));
+    section2.style.transform = `translateY(${(1 - s2Ease) * vhPx}px)`;
+  }
+
+  if (isMobile()) {
+    // ── MOBILE: нативний скрол ──
+    document.documentElement.style.overflow = '';
+    document.body.style.overflow = '';
+
+    window.addEventListener('scroll', () => {
+      updateHeroAnimation(window.scrollY);
+    }, { passive: true });
+
+    updateHeroAnimation(window.scrollY);
+
+  } else {
+    // ── DESKTOP: momentum wheel ──
+    window.scrollTo(0, 0);
+    targetScrollY = 0;
+    smoothScrollY = 0;
+
+    window.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      targetScrollY += e.deltaY * 1.2;
+      targetScrollY = Math.max(0, Math.min(targetScrollY, maxScroll()));
+    }, { passive: false });
+
+    function tick() {
+      requestAnimationFrame(tick);
+
+      // Self-correcting guard: the branch above is chosen once, at script
+      // start, from isMobile(). If that read the environment wrong at that
+      // exact instant (e.g. viewport/pointer type changed right after, such
+      // as a devtools device-mode toggle without a reload, a foldable/
+      // orientation change, or Android "Desktop site" being switched off) this
+      // loop would otherwise fight native touch scrolling forever: it forces
+      // window.scrollTo() back to its own target every frame, silently
+      // undoing any scroll the user (or a tap handler) just performed. Re-check
+      // every frame and, if we're actually on a touch/narrow viewport now,
+      // stop overriding scroll and resync to whatever the browser is doing.
+      if (isMobile()) {
+        targetScrollY = window.scrollY;
+        smoothScrollY = window.scrollY;
+        updateHeroAnimation(window.scrollY);
+        return;
+      }
+
+      targetScrollY = Math.max(0, Math.min(targetScrollY, maxScroll()));
+      smoothScrollY += (targetScrollY - smoothScrollY) * EASE;
+
+      if (Math.abs(targetScrollY - smoothScrollY) < 0.5) {
+        smoothScrollY = targetScrollY;
+      }
+
+      if (Math.abs(smoothScrollY - window.scrollY) > 0.5) {
+        window.scrollTo(0, smoothScrollY);
+      }
+
+      updateHeroAnimation(smoothScrollY);
+    }
+
+    tick();
+  }
+</script>
+
+  <script>
+  // Chrome-safe fallback synchronizer; the supplied hero engine above is untouched.
+  (()=>{
+    const fallbackVideo=document.getElementById('bg-video');
+    const fallbackTrack=document.getElementById('scroll-container');
+    if(!fallbackVideo||!fallbackTrack||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+    let scheduled=false;
+    const syncFallbackFrame=()=>{
+      scheduled=false;
+      if(!fallbackVideo.duration||fallbackVideo.readyState<1)return;
+      const trackHeight=fallbackTrack.offsetHeight-window.innerHeight;
+      if(trackHeight<=0)return;
+      const progress=Math.max(0,Math.min(1,window.scrollY/trackHeight));
+      const videoProgress=Math.min(1,progress/.60);
+      const wantedTime=videoProgress*Math.max(0,fallbackVideo.duration-.04);
+      if(Math.abs(fallbackVideo.currentTime-wantedTime)>.06){
+        try{fallbackVideo.currentTime=wantedTime;}catch(error){}
+      }
+      fallbackVideo.classList.add('is-ready');
+    };
+    const scheduleSync=()=>{
+      if(scheduled)return;
+      scheduled=true;
+      requestAnimationFrame(syncFallbackFrame);
+    };
+    fallbackVideo.addEventListener('loadedmetadata',scheduleSync);
+    fallbackVideo.addEventListener('seeked',()=>fallbackVideo.classList.add('is-ready'));
+    window.addEventListener('scroll',scheduleSync,{passive:true});
+    window.addEventListener('resize',scheduleSync,{passive:true});
+    scheduleSync();
+  })();
+
+  // Keep hash navigation in sync with the desktop momentum-scroll engine.
+  (()=>{
+    const links=[...document.querySelectorAll('a[href^="#"]')];
+    const scrollTrack=document.getElementById('scroll-container');
+    const destinationFor=hash=>{
+      if(hash==="#top")return 0;
+      if(hash==="#featured"&&scrollTrack){
+        return scrollTrack.offsetTop+scrollTrack.offsetHeight-window.innerHeight;
+      }
+      const target=document.querySelector(hash);
+      return target?window.scrollY+target.getBoundingClientRect().top:null;
+    };
+    const goTo=position=>{
+      const maximum=Math.max(0,document.documentElement.scrollHeight-window.innerHeight);
+      const next=Math.max(0,Math.min(position,maximum));
+      if(window.innerWidth <= 640 || window.matchMedia('(pointer: coarse)').matches){
+        window.scrollTo({top:next,behavior:'auto'});
+      }else{
+        targetScrollY=next;
+      }
+    };
+    links.forEach(link=>link.addEventListener('click',event=>{
+      const hash=link.getAttribute('href');
+      if(!hash||hash==="#")return;
+      const destination=destinationFor(hash);
+      if(destination===null)return;
+      event.preventDefault();
+      const filterName=link.dataset.navFilter;
+      if(filterName==="all"){
+        const activeFilter=document.querySelector('.filter-pill.active');
+        if(activeFilter)activeFilter.click();
+      }else if(filterName){
+        const filterButton=document.querySelector(`.filter-pill[data-filter="${filterName}"]`);
+        if(filterButton&&!filterButton.classList.contains('active'))filterButton.click();
+      }
+      goTo(destination);
+      if(history.replaceState)history.replaceState(null,'',hash);
+    }));
+  })();
+  </script>
+
+
+<script>
+  // Keyboard navigation uses the existing momentum-scroll target.
+  (()=>{
+    const isEditable=el=>el&&(el.matches?.('input,textarea,select,[contenteditable="true"]'));
+    window.addEventListener('keydown',event=>{
+      if(isEditable(document.activeElement)||event.ctrlKey||event.metaKey||event.altKey)return;
+      const desktop=!window.matchMedia('(pointer: coarse)').matches;
+      if(!desktop)return;
+      const maximum=Math.max(0,document.documentElement.scrollHeight-window.innerHeight);
+      const page=window.innerHeight*.9;
+      let next=null;
+      if(event.key==='Home')next=0;
+      else if(event.key==='End')next=maximum;
+      else if(event.key==='PageDown'||(event.key===' '&&!event.shiftKey))next=targetScrollY+page;
+      else if(event.key==='PageUp'||(event.key===' '&&event.shiftKey))next=targetScrollY-page;
+      else if(event.key==='ArrowDown')next=targetScrollY+80;
+      else if(event.key==='ArrowUp')next=targetScrollY-80;
+      if(next===null)return;
+      event.preventDefault();
+      targetScrollY=Math.max(0,Math.min(next,maximum));
+    });
+  })();
+</script>
+
+
+
+
+
+</body>
+</html>
