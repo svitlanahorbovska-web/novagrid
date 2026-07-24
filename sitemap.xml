@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- REQUIRED BEFORE DEPLOY: replace https://svitlanahorbovska-web.github.io/novagrid with the final HTTPS domain in every <loc>. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/stories.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/ai-beyond-the-hype.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/can-npcs-finally-feel-alive.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/digital-identities-virtual-societies.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/future-you-can-feel.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/game-world-becomes-place.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/human-machine-interfaces.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/next-generation-game-worlds.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/return-of-small-strange-games.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/virtual-fashion-is-becoming-real.html</loc></url>
-  <url><loc>https://https://svitlanahorbovska-web.github.io/novagrid/articles/who-owns-your-avatar.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/stories.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/ai-beyond-the-hype.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/can-npcs-finally-feel-alive.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/digital-identities-virtual-societies.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/future-you-can-feel.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/game-world-becomes-place.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/human-machine-interfaces.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/next-generation-game-worlds.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/return-of-small-strange-games.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/virtual-fashion-is-becoming-real.html</loc></url>
+  <url><loc>https://svitlanahorbovska-web.github.io/novagrid/articles/who-owns-your-avatar.html</loc></url>
 </urlset>

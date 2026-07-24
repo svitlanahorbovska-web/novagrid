@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# REQUIRED BEFORE DEPLOY: replace https://svitlanahorbovska-web.github.io/novagrid and remove the leading #.
 Sitemap: https://svitlanahorbovska-web.github.io/novagrid/sitemap.xml

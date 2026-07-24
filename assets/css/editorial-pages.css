@@ -22,11 +22,14 @@ main{width:min(1180px,calc(100% - 48px));margin-inline:auto}
 
 .archive-card[href$="virtual-fashion-is-becoming-real.html"] .archive-image img{object-position:center 65%}
 .archive-card[href$="human-machine-interfaces.html"] .archive-image img{object-position:center 65%}
+.archive-card[href$="next-generation-game-worlds.html"] .archive-image img{object-position:34% center;transform-origin:34% center}
 
 .archive-copy{display:flex;flex-direction:column;justify-content:center;padding:28px}.kicker{display:block;margin-bottom:12px;font-size:.65rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.archive-copy h2{margin:0 0 13px;font-size:1.45rem;line-height:1.02;letter-spacing:-.035em}.archive-copy p{margin:0;color:var(--muted);font-size:.84rem}.read-link{display:inline-flex;gap:8px;align-items:center;margin-top:24px;font-size:.65rem;font-weight:700;letter-spacing:.08em}.read-link span{transition:transform .25s ease}.archive-card:hover .read-link span,.archive-card:focus-visible .read-link span{transform:translateX(4px)}
 [hidden]{display:none!important}
 .article-shell{padding:90px 0 80px}.article-heading{max-width:980px;margin:0 auto 48px}.back-link{display:inline-block;margin-bottom:48px;font-size:.7rem;font-weight:700;letter-spacing:.08em;color:var(--muted)}.back-link:hover,.back-link:focus-visible{color:var(--blue)}.article-heading h1{max-width:980px;margin:10px 0 20px;font-size:clamp(3rem,6.5vw,6.6rem);line-height:1.08;letter-spacing:-.06em}.article-dek{max-width:720px;margin:0;color:var(--muted);font-size:clamp(1rem,1.6vw,1.3rem)}
 .article-visual{width:100%;height:auto;aspect-ratio:16/9;margin:0 0 70px;border-radius:34px;overflow:hidden;background:#d6dfe5;box-shadow:0 22px 60px rgba(17,42,64,.12)}.article-visual img{width:100%;height:100%;object-fit:cover;object-position:center center;filter:saturate(.68) contrast(.97)}
+.article-visual--globe img{transform:translate(5%,4%) scale(1.12)}
+.article-visual--city img{object-position:center 62%}
 .article-visual--interface img{object-fit:cover;object-position:center top}
 .article-body{width:min(760px,100%);margin:0 auto;color:#173047}.article-body p{margin:0 0 30px;font-size:1.05rem;line-height:1.78}.article-body .lead{font-size:clamp(1.22rem,2vw,1.55rem);line-height:1.58;color:var(--ink)}.article-body .lead::first-letter{float:left;margin:.05em .12em 0 0;font-family:"Space Grotesk";font-size:4.3em;font-weight:700;line-height:.72;color:var(--blue)}
 .article-end{width:min(760px,100%);margin:56px auto 0;padding:24px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;font-size:.68rem;font-weight:700;letter-spacing:.08em}.article-end span{color:var(--muted)}.article-end a:hover,.article-end a:focus-visible{color:var(--blue)}
@@ -39,4 +42,16 @@ main{width:min(1180px,calc(100% - 48px));margin-inline:auto}
 .article-visual.article-visual--headroom{height:auto;aspect-ratio:4/3}.article-visual.article-visual--headroom img{width:100%;height:100%;object-fit:contain;object-position:center center}
 @media(max-width:640px){.article-visual.article-visual--interface{width:100%;height:auto;aspect-ratio:1/1}}
 @media(max-width:640px){.article-visual.article-visual--square{width:100%;height:auto;aspect-ratio:1/1}}
+@media(max-width:640px){
+  .archive-card[href$="virtual-fashion-is-becoming-real.html"] .archive-image img{
+    object-fit:cover!important;
+    object-position:center top!important;
+    transform-origin:center top!important;
+  }
+  .archive-card[href$="human-machine-interfaces.html"] .archive-image img{
+    object-fit:cover!important;
+    object-position:center 15%!important;
+    transform-origin:center 15%!important;
+  }
+}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
